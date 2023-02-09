@@ -9,7 +9,7 @@ body {
 }
 
 #grid-container {
-    padding: 15% 5% 10% 5%;
+    padding: 10% 5% 10% 5%;
 }
 
 #testimonial-1 {
@@ -88,11 +88,11 @@ body {
     font-size: 1.2rem;
 }
 
-@media (min-width: 576px) {   
+@media (min-width: 900px) {   
     
     #grid-container {
+        width: 90%;
         display: flex;
-        max-width: 1440px;
         margin: auto;
     }
 
